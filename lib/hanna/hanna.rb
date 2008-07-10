@@ -10,7 +10,7 @@ require 'hanna/template_page_patch'
 # Author: Mislav Marohnić <mislav.marohnic@gmail.com>
 # Based on the work of Michael Granger <ged@FaerieMUD.org>
 
-module RDoc::Generator::HTML::Hanna
+module RDoc::Generator::HTML::HANNA
   class << self
     def dir
       @dir ||= File.join File.dirname(__FILE__), 'template_files'
