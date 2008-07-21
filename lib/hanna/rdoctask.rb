@@ -37,7 +37,6 @@ Rake::RDocTask.class_eval do
         $stderr.puts "Couldn't load RDoc 2.0 gem"
       end
       require 'rdoc/rdoc'
-      require 'hanna/rdoc_patch'
       
       RDoc::RDoc.new.document(option_list + @rdoc_files)
     end

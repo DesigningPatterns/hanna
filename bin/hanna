@@ -37,8 +37,6 @@ end
 hanna_dir = File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib'))
 $:.unshift(hanna_dir) unless $:.include?(hanna_dir)
 
-require 'hanna/rdoc_patch'
-
 options = []
 
 options << '-T' << 'hanna/hanna.rb'

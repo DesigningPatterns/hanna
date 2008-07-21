@@ -53,6 +53,9 @@ gems. This is a replacement for the "gem rdoc" command.
 
     [sudo] hanna --gems haml will_paginate
 
+Hanna also can be used with standard rdoc options:
+    --inline-source -T hanna
+
 ## A work in progress
 
 Hanna is far from done, but it is the first RDoc template that's actually
